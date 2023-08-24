@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cf0c81b5-5bdf-47c3-83c0-f6980f515e65)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 201.93 85.09) (size 45.72 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 0 1.0000))
+    (uuid 10c2ba79-c70c-4981-b611-40b52d595b01)
+    (property "Sheetname" "LED-Driver-Speed" (at 201.93 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LED_Driver_Speed.kicad_sch" (at 201.93 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "JoyStick-Hat"
+        (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 201.93 43.18) (size 45.72 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 0 1.0000))
+    (uuid be3abc89-1576-4d8d-a97c-6d68900a596b)
+    (property "Sheetname" "LED-Driver-Power" (at 201.93 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LED_Driver_Power.kicad_sch" (at 201.93 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "JoyStick-Hat"
+        (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 52.07 88.9) (size 41.91 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 0 0 1.0000))
+    (uuid e93621b0-f51d-4ad7-baf5-6493a8f9cdb5)
+    (property "Sheetname" "Power" (at 52.07 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 52.07 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "JoyStick-Hat"
+        (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 52.07 43.18) (size 41.91 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 255 255 1.0000))
+    (uuid edccb318-6986-4250-98d3-482c4b5ba7f8)
+    (property "Sheetname" "STM32F446RET6-MCU" (at 52.07 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "STM32F446RET6_MCU.kicad_sch" (at 52.07 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "JoyStick-Hat"
+        (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
