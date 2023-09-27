@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 91b2261c-ecb7-485e-b302-958250cdcbfb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "RPI_ST_UART_RX" (shape input) (at 106.68 72.39 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0817fb2c-8d92-4264-b690-9343aae72b5e)
+  )
+  (hierarchical_label "RPI_ST_UART_CTS" (shape output) (at 106.68 77.47 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1a294910-655b-4c94-a78c-8f38dbcd6c84)
+  )
+  (hierarchical_label "RPI_ST_UART_RTS" (shape input) (at 106.68 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2eceaeb6-8697-476d-9ff3-48c99544bc37)
+  )
+  (hierarchical_label "RPI_ST_UART_TX" (shape output) (at 106.68 74.93 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid eaf5a158-8e43-4b1e-94a4-02b4804d169e)
+  )
+)
