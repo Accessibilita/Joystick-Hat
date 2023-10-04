@@ -350,6 +350,10 @@
     [
       "657fac1d-f0e2-4536-8020-58a2ff4b82f6",
       "JoyStick Interface"
+    ],
+    [
+      "82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff",
+      "RS485 To Motor Controller Interface"
     ]
   ],
   "text_variables": {}
