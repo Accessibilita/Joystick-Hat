@@ -1,4 +1,4 @@
-22449208734288628
+22450911677994754
 AVR-KiCAD-Lib-Battery-Holders
 BK-912
 
@@ -2120,6 +2120,13 @@ Vicor-DCM
 0
 9
 9
+AVR-KiCAD-Lib-Transformers
+SO6_SMD-TGM_HEI
+
+TGM-240NSRLTR 
+0
+6
+6
 AVR-KiCAD-Lib-Transistors
 1212-8
 
