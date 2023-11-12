@@ -1464,6 +1464,11 @@
     (uuid f066bbb7-674c-408f-afac-253b62022dc1)
   )
 
+  (text "RS485 Transceiver" (at 119.38 34.29 0)
+    (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
+    (uuid 4aaf2305-1977-4eef-aba7-2ae38959e4de)
+  )
+
   (hierarchical_label "RS485_TX_EN" (shape input) (at 27.94 101.6 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2e5dca58-0fc4-48f6-b44e-6d6aefbd4fa9)
@@ -1484,7 +1489,7 @@
   (symbol (lib_id "power:Earth") (at 172.72 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 008f7df3-9e20-4b91-84b8-6570b257934b)
-    (property "Reference" "#PWR08" (at 172.72 120.65 0)
+    (property "Reference" "#PWR068" (at 172.72 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 172.72 118.11 0)
@@ -1500,7 +1505,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -1509,7 +1514,7 @@
   (symbol (lib_id "AVR-KiCAD-Lib-Capacitors:C1206C105K3RACAUTO") (at 224.79 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01ceb0fe-b6c8-4488-9cf9-090803d94370)
-    (property "Reference" "C23" (at 220.98 66.675 90)
+    (property "Reference" "C29" (at 220.98 66.675 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C1206C105K3RACAUTO" (at 219.71 67.31 0)
@@ -1601,7 +1606,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "C23") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -1610,7 +1615,7 @@
   (symbol (lib_id "AVR-KiCAD-Lib-Capacitors:CGA5L3X5R1V106K160AB") (at 213.36 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2377479b-8b7d-4b4a-b79e-1d07a2544d7a)
-    (property "Reference" "C22" (at 209.55 66.675 90)
+    (property "Reference" "C28" (at 209.55 66.675 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CGA5L3X5R1V106K160AB" (at 208.28 67.31 0)
@@ -1702,7 +1707,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "C22") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -1711,7 +1716,7 @@
   (symbol (lib_id "power:GND") (at 107.95 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30d78aec-e7ab-4163-b485-637f564062f9)
-    (property "Reference" "#PWR044" (at 107.95 81.28 0)
+    (property "Reference" "#PWR065" (at 107.95 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 80.01 0)
@@ -1727,7 +1732,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -1851,7 +1856,7 @@
   (symbol (lib_id "power:+5V") (at 228.6 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45047e67-32de-466e-812e-7709cfeb4273)
-    (property "Reference" "#PWR051" (at 228.6 66.04 0)
+    (property "Reference" "#PWR070" (at 228.6 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 228.6 57.15 0)
@@ -1867,7 +1872,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -1876,7 +1881,7 @@
   (symbol (lib_id "AVR-KiCAD-Lib-Capacitors:CL10B104JB8NNNC") (at 201.93 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47489f59-3c78-4d97-bdf8-1a79e6e40036)
-    (property "Reference" "C15" (at 198.12 66.675 90)
+    (property "Reference" "C?" (at 198.12 66.675 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL10B104JB8NNNC" (at 196.85 67.31 0)
@@ -1968,10 +1973,10 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/be3abc89-1576-4d8d-a97c-6d68900a596b"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "C21") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -1980,7 +1985,7 @@
   (symbol (lib_id "AVR-KiCAD-Lib-Capacitors:CL10B104JB8NNNC") (at 107.95 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 503b7bc2-d974-457f-8344-3a277392955b)
-    (property "Reference" "C15" (at 104.14 67.945 90)
+    (property "Reference" "C?" (at 104.14 67.945 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL10B104JB8NNNC" (at 102.87 68.58 0)
@@ -2072,10 +2077,10 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/be3abc89-1576-4d8d-a97c-6d68900a596b"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "C17") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2084,7 +2089,7 @@
   (symbol (lib_id "AVR-KiCAD-Lib-Capacitors:CGA5L3X5R1V106K160AB") (at 119.38 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67574aab-89c4-41af-97a7-784f1bb93ffc)
-    (property "Reference" "C18" (at 115.57 67.945 90)
+    (property "Reference" "C26" (at 115.57 67.945 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CGA5L3X5R1V106K160AB" (at 114.3 68.58 0)
@@ -2176,7 +2181,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "C18") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -2185,7 +2190,7 @@
   (symbol (lib_id "power:GND") (at 119.38 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8056ee13-8c79-4b87-915d-7153dfc660c6)
-    (property "Reference" "#PWR047" (at 119.38 81.28 0)
+    (property "Reference" "#PWR066" (at 119.38 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 80.01 0)
@@ -2201,7 +2206,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -2210,7 +2215,7 @@
   (symbol (lib_id "power:GND") (at 132.08 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87f476c2-24a6-4545-8a92-e8d873c62005)
-    (property "Reference" "#PWR045" (at 132.08 115.57 0)
+    (property "Reference" "#PWR067" (at 132.08 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 114.3 0)
@@ -2226,7 +2231,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -2235,7 +2240,7 @@
   (symbol (lib_id "power:+3.3V") (at 107.95 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98e20180-a44d-4dd3-bb70-45d5119235f4)
-    (property "Reference" "#PWR043" (at 107.95 67.31 0)
+    (property "Reference" "#PWR064" (at 107.95 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 107.95 58.42 0)
@@ -2251,7 +2256,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -2260,7 +2265,7 @@
   (symbol (lib_id "AVR-KiCAD-Lib-Diodes:LMB110S-TP") (at 179.07 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab774bfc-abf4-4bb6-8489-9512a08f120d)
-    (property "Reference" "D2" (at 184.15 53.34 0)
+    (property "Reference" "D13" (at 184.15 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LMB110S-TP" (at 185.42 77.47 0)
@@ -2354,7 +2359,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "D2") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -2363,7 +2368,7 @@
   (symbol (lib_id "power:Earth") (at 194.31 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0d07d7b-8951-4030-9e89-a3347d733570)
-    (property "Reference" "#PWR046" (at 194.31 88.9 0)
+    (property "Reference" "#PWR069" (at 194.31 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 194.31 86.36 0)
@@ -2379,7 +2384,7 @@
     (instances
       (project "JoyStick-Hat"
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
