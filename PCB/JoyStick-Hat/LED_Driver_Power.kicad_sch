@@ -1418,7 +1418,7 @@
     (property "Description" "IC LED DRVR LINEAR 30MA 32HTSSOP" (at 215.9 -30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "_Value_" "TLC5947DAP" (at 133.35 113.03 0)
+    (property "_Value_" "TLC5947DAP" (at 133.35 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Management_ID" "*" (at 215.9 -30.48 0)

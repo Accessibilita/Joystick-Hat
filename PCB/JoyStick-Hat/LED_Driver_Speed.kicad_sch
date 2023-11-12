@@ -979,7 +979,7 @@
     (uuid f2a88803-3bd0-4962-8d87-67f6c6a44a8f)
   )
 
-  (hierarchical_label "LED_DRIVER_XLAT" (shape input) (at 36.83 91.44 180) (fields_autoplaced)
+  (hierarchical_label "LED_DRIVER_XLAT2" (shape input) (at 36.83 91.44 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 098e0c2a-4d68-410c-b991-2e83e116b640)
   )
@@ -991,7 +991,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5d200ba0-d50c-4db9-bd76-0df7308dba94)
   )
-  (hierarchical_label "LED_DRIVER_BLANK" (shape input) (at 35.56 81.28 180) (fields_autoplaced)
+  (hierarchical_label "LED_DRIVER_BLANK2" (shape input) (at 35.56 81.28 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 80d60bfb-b3a0-4a56-8697-3a0bbc4e0cb3)
   )
