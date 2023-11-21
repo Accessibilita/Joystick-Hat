@@ -1972,9 +1972,6 @@
     (pin "2" (uuid d2c8e00a-27c1-4c16-b8e9-fd3544f3fe0f))
     (instances
       (project "JoyStick-Hat"
-        (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/be3abc89-1576-4d8d-a97c-6d68900a596b"
-          (reference "C?") (unit 1)
-        )
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
           (reference "C27") (unit 1)
         )
@@ -2076,9 +2073,6 @@
     (pin "2" (uuid 2344a97e-67b8-45bc-9d12-44dfd286802c))
     (instances
       (project "JoyStick-Hat"
-        (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/be3abc89-1576-4d8d-a97c-6d68900a596b"
-          (reference "C?") (unit 1)
-        )
         (path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
           (reference "C25") (unit 1)
         )
