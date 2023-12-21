@@ -1,4 +1,4 @@
-135404684669755
+137107533376834
 AVR-KiCAD-Lib-Connectors
 2X6HDR2.54mm
 
@@ -433,6 +433,13 @@ Through hole pin header THT 2x05 2.54mm double row
 0
 10
 10
+AVR-KiCAD-Lib-Connectors
+RJ45_Wuerth_7499111446_Horizontal
+LAN-Transformer WE-RJ45LAN 10/100/1000 BaseT
+ethernet lan connector
+0
+16
+15
 AVR-KiCAD-Lib-Connectors
 S2B-PH-K-S(LF)(SN)
 http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
