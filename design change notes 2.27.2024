@@ -1,0 +1,8 @@
+- PG signals change pullups to 2.2K  - done
+- change pullups to 2.2K - done
+- polyfuse for joystick power 
+- 0.1uF on joystick pot wiper - done
+- 1M pullup on the wiper - done
+- 120 oh resisotr across transmit lines on RS485 - done
+
+- what data back from motor controllers 
