@@ -1,6 +1,10 @@
 # Joystick-Hat
 RPi Hat for controlling an open source wheel chair! This hat contains all the necessary electronics for interfacing and powering all the components/peripherals that will be used to control the open source wheel chair electrical system we are developing with the Accessibilita project !!
 
+Functional Block Diagram of Board 
+
+![PCB Render](img/Block_diagram.png)
+
 Quick Specs of the Hat:
 - STM32F446RET6 100TQFP ARM Cortex M4 Microcontoller
 - ARM Cortex M Serial Debu Interface/connector for in system programming and development 
