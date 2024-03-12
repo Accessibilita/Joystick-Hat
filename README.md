@@ -21,3 +21,21 @@ Quick Specs of the Hat:
 - STM32 will run custom FreeRTOS or ROS-Micro more to follow
 
 This hat is intended as a developmental platform that can function in the field, it has all the features needed to control the wheel chair with additional feature that will make software development easier. The final version will be much simpler and low cost, this is only the beginning. 
+
+
+2D Render of JoyStick-HID Hat in KiCAD 8.0
+![PCB Render](img/JoyStick-Hat_2D.jpg)
+
+3D Renders of JoyStick-HID Hat in KiCAD 8.0 3D Viewer 
+
+![3D_Render_ISO](img/JoyStick-Hat_3D_ISO.jpg)
+
+![3D_Render_TOP](img/JoyStick-Hat_3D_TOP.jpg)
+
+![3D_Render_Bottom](img/JoyStick-Hat_3D_BOTTOM.jpg)
+
+![3D_Render_Back](img/JoyStick-Hat_3D_BACK.jpg)
+
+![3D_Render_SIDE1](img/JoyStick-Hat_3D_SIDE1.jpg)
+
+![3D_Render_SIDE2](img/JoyStick-Hat_3D_SIDE2.jpg)
