@@ -167,6 +167,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 133.35) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858b6487-caac-4dbb-9c51-0e5b8d940145")
+	)
+	(wire
+		(pts
 			(xy 101.6 99.06) (xy 114.3 99.06)
 		)
 		(stroke
@@ -194,6 +204,16 @@
 			(type default)
 		)
 		(uuid "902ab5ab-fd80-48a8-9d35-7a7a41565937")
+	)
+	(wire
+		(pts
+			(xy 101.6 130.81) (xy 114.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ed87c7-d02f-4389-8deb-71efc3b7b692")
 	)
 	(wire
 		(pts
@@ -535,6 +555,26 @@
 				(justify right)
 			)
 			(uuid "ddc006d3-6b09-4295-8134-cfd75ab49ddb")
+		)
+		(pin "RS485_TX_LED" input
+			(at 101.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1e5f68e-a66b-431e-87c7-4f9fd6b9532d")
+		)
+		(pin "RS485_RX_LED" input
+			(at 101.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ebc01ac7-245b-4441-96a2-4aab1c957a38")
 		)
 		(instances
 			(project "JoyStick-Hat"
@@ -1009,6 +1049,26 @@
 				(justify left)
 			)
 			(uuid "404301e7-edf8-4830-8dbe-39079c8d89f2")
+		)
+		(pin "RS485_TX_LED" input
+			(at 114.3 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9dc5012b-6785-4352-9a0a-eb3c35d5dda0")
+		)
+		(pin "RS485_RX_LED" input
+			(at 114.3 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "156f9ed2-cc2c-4efd-adcf-cbbd0d32c1a5")
 		)
 		(instances
 			(project "JoyStick-Hat"

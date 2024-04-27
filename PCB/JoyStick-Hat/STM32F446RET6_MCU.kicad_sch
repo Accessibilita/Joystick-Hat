@@ -9236,6 +9236,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e61dbae-15e3-49f8-b726-e67ffbc1d547")
+	)
+	(wire
+		(pts
 			(xy 218.44 128.27) (xy 243.84 128.27)
 		)
 		(stroke
@@ -9423,6 +9433,16 @@
 			(type default)
 		)
 		(uuid "49413a0d-b4e7-46a8-9c10-af0aa3211cc7")
+	)
+	(wire
+		(pts
+			(xy 266.7 78.74) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0859a1-fc73-439d-a761-e7b0d19cc5fe")
 	)
 	(wire
 		(pts
@@ -9693,6 +9713,16 @@
 			(type default)
 		)
 		(uuid "6441e9d4-8671-4576-94ab-162148816a2e")
+	)
+	(wire
+		(pts
+			(xy 161.29 81.28) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686f68e9-8bf1-4530-8777-bd27b4461efe")
 	)
 	(wire
 		(pts
@@ -10186,6 +10216,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 78.74) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27fbc46-f1ab-46ad-be12-a6f4c77bd855")
+	)
+	(wire
+		(pts
 			(xy 82.55 129.54) (xy 91.44 129.54)
 		)
 		(stroke
@@ -10316,6 +10356,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 81.28) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af515879-9a51-4b15-b914-cc723f116329")
+	)
+	(wire
+		(pts
 			(xy 271.78 86.36) (xy 275.59 86.36)
 		)
 		(stroke
@@ -10393,6 +10443,16 @@
 			(type default)
 		)
 		(uuid "bf20d7de-d900-4b9a-b2f4-85444648b6ca")
+	)
+	(wire
+		(pts
+			(xy 158.75 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b493cd-f1d2-4446-b09a-32195d931bbb")
 	)
 	(wire
 		(pts
@@ -11493,6 +11553,18 @@
 		)
 		(uuid "3c43fe62-e1f3-433e-8993-8161d6574719")
 	)
+	(hierarchical_label "RS485_TX_LED"
+		(shape input)
+		(at 266.7 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43b0e881-d629-4979-8dc3-475473eb76e0")
+	)
 	(hierarchical_label "ROTARY1_POLE2"
 		(shape output)
 		(at 30.48 137.16 180)
@@ -11660,6 +11732,18 @@
 			(justify right)
 		)
 		(uuid "d46599f2-5203-4ecd-b618-62497619c1b2")
+	)
+	(hierarchical_label "RS485_RX_LED"
+		(shape input)
+		(at 266.7 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da26a748-e905-4bf0-95bb-1ef68131533b")
 	)
 	(hierarchical_label "12V_PG"
 		(shape input)

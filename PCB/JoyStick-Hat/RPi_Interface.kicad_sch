@@ -6201,7 +6201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AVR-KiCAD-Lib-Connectors:PinHeader_2x21_P2.54mm_Female_Bottom"
+		(property "Footprint" "AVR-KiCAD-Lib-Connectors:PinHeader_2x21_P2.54mm_Vertical"
 			(at 173.99 86.36 0)
 			(effects
 				(font
