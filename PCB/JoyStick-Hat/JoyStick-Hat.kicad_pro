@@ -552,11 +552,167 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Cost QTY: 1",
+          "name": "Cost QTY: 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Cost QTY: 1000",
+          "name": "Cost QTY: 1000",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Cost QTY: 10000",
+          "name": "Cost QTY: 10000",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Cost QTY: 2500",
+          "name": "Cost QTY: 2500",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Cost QTY: 5000",
+          "name": "Cost QTY: 5000",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Date Created",
+          "name": "Date Created",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Date Modified",
+          "name": "Date Modified",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Designer",
+          "name": "Designer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Lead-Free ?",
+          "name": "Lead-Free ?",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR#",
+          "name": "MFR#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Management_ID",
+          "name": "Management_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting",
+          "name": "Mounting",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pin Count #",
+          "name": "Pin Count #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RoHS Levels",
+          "name": "RoHS Levels",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vendor",
+          "name": "Vendor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vendor #",
+          "name": "Vendor #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "_Value_",
+          "name": "_Value_",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

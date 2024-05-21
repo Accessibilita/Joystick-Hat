@@ -8051,6 +8051,17 @@
 		)
 		(uuid "4aaf2305-1977-4eef-aba7-2ae38959e4de")
 	)
+	(label "B_RS485"
+		(at 175.26 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1afdb262-e7d5-424a-820b-1c02698dab68")
+	)
 	(label "RJ45_SHIELD"
 		(at 254 104.14 0)
 		(fields_autoplaced yes)
@@ -8061,6 +8072,39 @@
 			(justify left bottom)
 		)
 		(uuid "37fb6ed2-4b5e-434d-b719-37ebdd74cd4f")
+	)
+	(label "Z_RS485"
+		(at 175.26 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "444e9967-96b2-4cb3-b94a-c88e22db0a48")
+	)
+	(label "A_RS485"
+		(at 175.26 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f2eb986-8cab-4238-9070-682d7dfc64fe")
+	)
+	(label "Y_RS485"
+		(at 175.26 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba88add8-cc7d-4d7b-8b06-7ce972a8b515")
 	)
 	(hierarchical_label "RS485_RX_LED"
 		(shape input)
