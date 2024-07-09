@@ -3799,150 +3799,6 @@
 				)
 			)
 		)
-		(symbol "power:Earth_Protective"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 6.35 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Earth_Protective"
-				(at 11.43 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground gnd clean"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Earth_Protective_0_1"
-				(circle
-					(center 0 -3.81)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -4.445) (xy 0.635 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -5.08) (xy 0.127 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Earth_Protective_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "Earth_Protective"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -4059,12 +3915,6 @@
 		(uuid "251d3494-a069-47bc-8525-06829874c130")
 	)
 	(junction
-		(at 209.55 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47d2d64d-ce55-4c19-bd9c-4344de1165bf")
-	)
-	(junction
 		(at 111.76 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4083,18 +3933,6 @@
 		(uuid "8254ac1c-bffe-4c1e-8192-5a7516ffb3f2")
 	)
 	(junction
-		(at 209.55 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d7e8943-58f3-4c62-9765-55a02aba639c")
-	)
-	(junction
-		(at 209.55 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7be4719-4b59-4eca-90a6-a7721c5b0f92")
-	)
-	(junction
 		(at 124.46 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4107,22 +3945,10 @@
 		(uuid "e960151e-4ecf-4b06-b46a-e03bb4606b01")
 	)
 	(junction
-		(at 209.55 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f311fcbd-55fd-464b-9b9e-83a50b57da7a")
-	)
-	(junction
 		(at 99.06 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb8ef4ae-54fd-40d0-b753-059f2ab1881c")
-	)
-	(junction
-		(at 209.55 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fda3b559-4ba3-4686-9ad3-dbd834f71de1")
 	)
 	(wire
 		(pts
@@ -4133,16 +3959,6 @@
 			(type default)
 		)
 		(uuid "1725cbe6-b80c-4df8-8ea4-15c932f9cfc7")
-	)
-	(wire
-		(pts
-			(xy 209.55 135.89) (xy 214.63 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bf338a1-4d99-455c-a05f-a47e538e59df")
 	)
 	(wire
 		(pts
@@ -4163,16 +3979,6 @@
 			(type default)
 		)
 		(uuid "37fb84be-2212-40c2-b708-b77bc78d7570")
-	)
-	(wire
-		(pts
-			(xy 214.63 114.3) (xy 209.55 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d6422c3-5b79-42f8-beb6-9716aa64fe57")
 	)
 	(wire
 		(pts
@@ -4206,16 +4012,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 149.86) (xy 214.63 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67e5e37d-bc8d-43aa-8221-0b9acbbb3dd7")
-	)
-	(wire
-		(pts
 			(xy 124.46 127) (xy 135.89 127)
 		)
 		(stroke
@@ -4236,16 +4032,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 142.24) (xy 209.55 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "751af294-0f58-403f-bad9-b6f6393dd3e2")
-	)
-	(wire
-		(pts
 			(xy 135.89 138.43) (xy 135.89 129.54)
 		)
 		(stroke
@@ -4256,16 +4042,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 129.54) (xy 209.55 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79c99c13-d05e-4d44-aff1-a3a369b85195")
-	)
-	(wire
-		(pts
 			(xy 171.45 127) (xy 182.88 127)
 		)
 		(stroke
@@ -4273,16 +4049,6 @@
 			(type default)
 		)
 		(uuid "8069ddd4-be30-4bb3-97bf-a34d34189d01")
-	)
-	(wire
-		(pts
-			(xy 209.55 129.54) (xy 214.63 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80c87931-b477-482b-be2f-b6cb065ed712")
 	)
 	(wire
 		(pts
@@ -4326,16 +4092,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 142.24) (xy 214.63 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961760c7-c0a8-4a40-9795-2bd6518016a6")
-	)
-	(wire
-		(pts
 			(xy 111.76 127) (xy 124.46 127)
 		)
 		(stroke
@@ -4366,16 +4122,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 121.92) (xy 209.55 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac7d071d-2a1f-4c54-a20d-2cbb643eb0b3")
-	)
-	(wire
-		(pts
 			(xy 138.43 58.42) (xy 166.37 58.42)
 		)
 		(stroke
@@ -4383,26 +4129,6 @@
 			(type default)
 		)
 		(uuid "bb2982cb-c887-459c-8496-36509adc8395")
-	)
-	(wire
-		(pts
-			(xy 209.55 114.3) (xy 209.55 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbb1c752-cebe-4f67-9457-a3ff34a36ff8")
-	)
-	(wire
-		(pts
-			(xy 209.55 121.92) (xy 214.63 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c216cac6-814d-4afb-a813-b4dd46525aa8")
 	)
 	(wire
 		(pts
@@ -4423,16 +4149,6 @@
 			(type default)
 		)
 		(uuid "cd6b4ef2-8c1c-4225-8904-4337c6d62b2c")
-	)
-	(wire
-		(pts
-			(xy 209.55 135.89) (xy 209.55 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d96a2f14-00dd-481d-86f3-c65e1d814c46")
 	)
 	(wire
 		(pts
@@ -5768,73 +5484,6 @@
 			(project "JoyStick-Hat"
 				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/e93621b0-f51d-4ad7-baf5-6493a8f9cdb5"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth_Protective")
-		(at 209.55 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c5adaf9-895e-4113-9740-ae59e17ee48a")
-		(property "Reference" "#PWR025"
-			(at 215.9 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth_Protective"
-			(at 220.98 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a01f6b3-c42e-4db7-bd9d-f08ef72bbb9c")
-		)
-		(instances
-			(project "JoyStick-Hat"
-				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/e93621b0-f51d-4ad7-baf5-6493a8f9cdb5"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
