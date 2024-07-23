@@ -24651,7 +24651,7 @@
 			(uuid "4e12fd7f-5f87-4fbb-b4b4-9f9f6612a8a5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 26.3 18.668 360)
+			(at 26.3 18.668 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "faa28b8c-ebbb-43ed-a492-2320dfc7c22f")
@@ -37128,7 +37128,7 @@
 		(uuid "78e65326-ea7b-4f7a-8861-a08a473eaddf")
 		(at 206.2 52.3 -90)
 		(property "Reference" "R43"
-			(at 2.8 0 360)
+			(at 2.8 0 0)
 			(layer "F.SilkS")
 			(uuid "23d5fd18-ea14-4276-91d3-40f3c3cc40d9")
 			(effects
@@ -56909,7 +56909,7 @@
 			(uuid "46f66ec4-4c6c-467b-ac6b-6f20a83fb7f9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 26.3 18.668 360)
+			(at 26.3 18.668 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6dd1cf77-c041-48ff-a5ff-5162f790cffe")
