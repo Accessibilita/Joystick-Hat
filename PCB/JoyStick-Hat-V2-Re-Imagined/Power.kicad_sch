@@ -3505,7 +3505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:CP_Elec_4x5.3"
+		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:CAP_UUQ_4X5P4_NCH"
 			(at 124.46 127 0)
 			(effects
 				(font
@@ -6451,7 +6451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:CP_Elec_4x5.3"
+		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:CAP_UUQ_6P3X5P4_NCH"
 			(at 111.76 127 0)
 			(effects
 				(font

@@ -479,7 +479,7 @@
 			(uuid "699b118d-ea52-4d8f-86d5-377401b9bcc0")
 		)
 		(instances
-			(project "JoyStick-Hat-V2"
+			(project "JoyStick-Hat-V2-Re-Imagined"
 				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65"
 					(page "7")
 				)
@@ -577,7 +577,7 @@
 			(uuid "ebc01ac7-245b-4441-96a2-4aab1c957a38")
 		)
 		(instances
-			(project "JoyStick-Hat-V2"
+			(project "JoyStick-Hat-V2-Re-Imagined"
 				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65"
 					(page "8")
 				)
@@ -655,7 +655,7 @@
 			(uuid "4f0e4576-9cca-4e49-ae13-dfa4a2495867")
 		)
 		(instances
-			(project "JoyStick-Hat-V2"
+			(project "JoyStick-Hat-V2-Re-Imagined"
 				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65"
 					(page "6")
 				)
@@ -723,7 +723,7 @@
 			(uuid "2f976f36-b0b7-4644-b9af-ec2eb2479e1f")
 		)
 		(instances
-			(project "JoyStick-Hat-V2"
+			(project "JoyStick-Hat-V2-Re-Imagined"
 				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65"
 					(page "5")
 				)
@@ -1071,7 +1071,7 @@
 			(uuid "156f9ed2-cc2c-4efd-adcf-cbbd0d32c1a5")
 		)
 		(instances
-			(project "JoyStick-Hat-V2"
+			(project "JoyStick-Hat-V2-Re-Imagined"
 				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65"
 					(page "2")
 				)
