@@ -1,0 +1,6 @@
+assmbely notes:
+- Footprint for Raspberry Pi Header connector is wrong, its 42 pins should be 40
+- 10uF caps on input = footprint too small!
+- C19 footprint too big
+- Max chip Pin 1 legend too hard to see
+- RS485 diode orientation legend not on PCB

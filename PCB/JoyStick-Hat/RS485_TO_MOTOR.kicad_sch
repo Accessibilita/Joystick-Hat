@@ -9742,12 +9742,11 @@
 			)
 		)
 		(property "_Value_" "470r"
-			(at -10.16 223.52 0)
+			(at 42.418 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Management_ID" "*"
@@ -12686,12 +12685,11 @@
 			)
 		)
 		(property "_Value_" "470r"
-			(at 12.7 226.06 0)
+			(at 65.278 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Management_ID" "*"
