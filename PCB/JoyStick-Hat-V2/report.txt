@@ -1,0 +1,91 @@
+Info: Processing symbol 'C1:growbox-KiCAD-Capacitors:C0402'.
+Info: Processing symbol 'R25:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C2:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C3:growbox-KiCAD-Capacitors:C0402'.
+Info: Processing symbol 'R26:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C4:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C5:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C6:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C7:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C8:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C9:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C10:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C11:growbox-KiCAD-Capacitors:C0402'.
+Info: Processing symbol 'SW1:AVR-KiCAD-Lib-Mech-Switches:TL3301NF260QG'.
+Info: Processing symbol 'C12:growbox-KiCAD-Capacitors:C0402'.
+Info: Processing symbol 'U2:AVR-KiCAD-Lib-ICs:DAP32_4P36X4P11'.
+Info: Processing symbol 'C13:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C14:growbox-KiCAD-Capacitors:C0402'.
+Info: Processing symbol 'U3:AVR-KiCAD-Lib-ICs:DAP32_4P36X4P11'.
+Info: Processing symbol 'C15:AVR-KiCAD-Lib-Capacitors:C0603'.
+Info: Processing symbol 'C16:AVR-KiCAD-Lib-Capacitors:C0603'.
+Info: Processing symbol 'C17:AVR-KiCAD-Lib-Capacitors:C0603'.
+Info: Processing symbol 'C18:AVR-KiCAD-Lib-Capacitors:C1206'.
+Info: Processing symbol 'C19:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C20:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'C21:AVR-KiCAD-Lib-Capacitors:C0603'.
+Info: Processing symbol 'C22:AVR-KiCAD-Lib-Capacitors:C1206'.
+Info: Processing symbol 'C23:AVR-KiCAD-Lib-Diodes:D_SOD-123'.
+Info: Processing symbol 'C24:AVR-KiCAD-Lib-Capacitors:UCM1C470MCL1GS'.
+Info: Processing symbol 'C25:AVR-KiCAD-Lib-Capacitors:UCM1C470MCL1GS'.
+Info: Processing symbol 'C39:AVR-KiCAD-Lib-Capacitors:C0603'.
+Info: Processing symbol 'D1:AVR-KiCAD-Lib-ICs:SOT-23-6_Handsoldering'.
+Info: Processing symbol 'D2:AVR-KiCAD-Lib-Diodes:LMB110S-TP'.
+Info: Processing symbol 'D8:AVR-KiCAD-Lib-Diodes:SMAJ30CA'.
+Info: Processing symbol 'J1:Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical'.
+Info: Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical'.
+Info: Processing symbol 'J3:'.
+Info: Processing symbol 'U4:AVR-KiCAD-Lib-ICs:21-0145_W28M&plus_9_MXM'.
+Info: Processing symbol 'J4:'.
+Info: Processing symbol 'U5:Package_QFP:LQFP-100_14x14mm_P0.5mm'.
+Info: Processing symbol 'J5:'.
+Info: Processing symbol 'X1:AVR-KiCAD-Lib-Oscillators:ABM3B8.000MHZB2T'.
+Info: Processing symbol 'J6:'.
+Info: Processing symbol 'X2:AVR-KiCAD-Lib-Oscillators:ABS07-32.768KHZ-9-T'.
+Info: Processing symbol 'J7:'.
+Info: Processing symbol 'J8:'.
+Info: Processing symbol 'J9:'.
+Info: Processing symbol 'J10:'.
+Info: Processing symbol 'J11:'.
+Info: Processing symbol 'J12:AVR-KiCAD-Lib-Connectors:BU2032SM-JJ-GTR'.
+Info: Processing symbol 'J13:AVR-KiCAD-Lib-Connectors:20021121-00010C4LF'.
+Info: Processing symbol 'J14:AVR-KiCAD-Lib-Connectors:USB_Mini-B'.
+Info: Processing symbol 'L1:AVR-KiCAD-Lib-Inductors:BLM15HG601SN1D'.
+Info: Processing symbol 'L2:AVR-KiCAD-Lib-Inductors:MI0603K300R-10'.
+Info: Processing symbol 'L3:AVR-KiCAD-Lib-Transformers:SO6_Q4470-CL_C-SIZE_COC'.
+Info: Processing symbol 'M1:AVR-KiCAD-Lib-Modules:D24V22F12'.
+Info: Processing symbol 'M2:AVR-KiCAD-Lib-Modules:D24V22F12'.
+Info: Processing symbol 'M3:AVR-KiCAD-Lib-Modules:D24V22F12'.
+Info: Processing symbol 'R1:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'R2:AVR-KiCAD-Lib-Resistors:R0603'.
+Info: Processing symbol 'R3:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'R4:AVR-KiCAD-Lib-Resistors:R0603'.
+Info: Processing symbol 'R5:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'R6:AVR-KiCAD-Lib-Resistors:R0603'.
+Info: Processing symbol 'R7:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'R8:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'R9:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'R10:AVR-KiCAD-Lib-Resistors:R0603'.
+Info: Processing symbol 'R11:AVR-KiCAD-Lib-Resistors:R0603'.
+Info: Processing symbol 'R12:AVR-KiCAD-Lib-Resistors:R0603'.
+Info: Processing symbol 'R13:AVR-KiCAD-Lib-Resistors:R0402'.
+Info: Processing symbol 'R23:AVR-KiCAD-Lib-Resistors:R1206'.
+Info: Processing symbol 'R24:AVR-KiCAD-Lib-Resistors:R0402'.
+Error: Cannot add C1 (footprint 'growbox-KiCAD-Capacitors:C0402' not found).
+Error: Cannot add C3 (footprint 'growbox-KiCAD-Capacitors:C0402' not found).
+Error: Cannot add C11 (footprint 'growbox-KiCAD-Capacitors:C0402' not found).
+Error: Cannot add C12 (footprint 'growbox-KiCAD-Capacitors:C0402' not found).
+Error: Cannot add C14 (footprint 'growbox-KiCAD-Capacitors:C0402' not found).
+Error: Cannot add J3 (no footprint assigned).
+Error: Cannot add J4 (no footprint assigned).
+Error: Cannot add J5 (no footprint assigned).
+Error: Cannot add J6 (no footprint assigned).
+Error: Cannot add J7 (no footprint assigned).
+Error: Cannot add J11 (no footprint assigned).
+Error: Cannot add J9 (no footprint assigned).
+Error: Cannot add J12 (footprint 'AVR-KiCAD-Lib-Connectors:BU2032SM-JJ-GTR' not found).
+Error: Cannot add J8 (no footprint assigned).
+Error: Cannot add J10 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 15.
