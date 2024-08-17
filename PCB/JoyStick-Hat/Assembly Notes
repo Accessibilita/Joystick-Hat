@@ -4,3 +4,6 @@ assmbely notes:
 - C19 footprint too big
 - Max chip Pin 1 legend too hard to see
 - RS485 diode orientation legend not on PCB
+- STM32 Pin 1 legend not there
+- Header holes for DCDC regulator modules too small had to hack them on there.
+- 
