@@ -504,6 +504,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -768,10 +769,6 @@
     [
       "e93621b0-f51d-4ad7-baf5-6493a8f9cdb5",
       "Power"
-    ],
-    [
-      "8b1a07d6-2313-4cc6-a8d0-b86e58239c25",
-      "RPi_Interface"
     ],
     [
       "657fac1d-f0e2-4536-8020-58a2ff4b82f6",

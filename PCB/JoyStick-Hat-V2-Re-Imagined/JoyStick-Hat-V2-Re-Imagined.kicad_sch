@@ -27,26 +27,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 44.45) (xy 114.3 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1abd81a1-43cb-4fb8-bf66-7ace70f06f98")
-	)
-	(wire
-		(pts
-			(xy 101.6 52.07) (xy 114.3 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c97a3be-e7c3-49a4-9e48-bdd687c36255")
-	)
-	(wire
-		(pts
 			(xy 101.6 83.82) (xy 114.3 83.82)
 		)
 		(stroke
@@ -237,16 +217,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 46.99) (xy 114.3 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acd52c15-9a6e-4656-8e66-71b78b772415")
-	)
-	(wire
-		(pts
 			(xy 101.6 125.73) (xy 114.3 125.73)
 		)
 		(stroke
@@ -274,16 +244,6 @@
 			(type default)
 		)
 		(uuid "d1230e0b-7b2e-4c8f-b944-02edb45ac468")
-	)
-	(wire
-		(pts
-			(xy 101.6 49.53) (xy 114.3 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4312203-34d7-4ab6-993f-0bc52eae3e18")
 	)
 	(wire
 		(pts
@@ -585,84 +545,6 @@
 		)
 	)
 	(sheet
-		(at 76.2 38.1)
-		(size 25.4 16.51)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 194 0 1.0000)
-		)
-		(uuid "8b1a07d6-2313-4cc6-a8d0-b86e58239c25")
-		(property "Sheetname" "RPi_Interface"
-			(at 76.2 37.3884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RPi_Interface.kicad_sch"
-			(at 76.2 55.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "RPI_ST_UART_RX" input
-			(at 101.6 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "025f1c25-1eef-465c-a27a-89916f2e3d57")
-		)
-		(pin "RPI_ST_UART_TX" output
-			(at 101.6 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "39092b79-7e70-472f-9bd8-70966a6777b4")
-		)
-		(pin "RPI_ST_UART_RTS" input
-			(at 101.6 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e4541d44-a3a6-4226-ac50-7bb69526c8cc")
-		)
-		(pin "RPI_ST_UART_CTS" output
-			(at 101.6 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4f0e4576-9cca-4e49-ae13-dfa4a2495867")
-		)
-		(instances
-			(project "JoyStick-Hat-V2-Re-Imagined"
-				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 114.3 152.4)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
@@ -759,46 +641,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "ST_RPI_UART_CTS" output
-			(at 114.3 49.53 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "faf0d4b6-80ae-42db-915c-7dde1b1ed646")
-		)
-		(pin "ST_RPI_UART_RX" input
-			(at 114.3 44.45 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f5377555-183c-46be-9d61-1525619dbe70")
-		)
-		(pin "ST_RPI_UART_TX" output
-			(at 114.3 46.99 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "abb9878b-5aaf-4ace-b914-ed2cb8531056")
-		)
-		(pin "ST_RPI_UART_RTS" input
-			(at 114.3 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "eb1364de-686b-4141-bb39-b6d0a1c07550")
 		)
 		(pin "LED_DRIVER_BLANK" output
 			(at 165.1 58.42 0)
