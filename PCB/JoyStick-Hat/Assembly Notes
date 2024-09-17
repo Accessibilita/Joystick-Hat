@@ -6,4 +6,4 @@ assmbely notes:
 - RS485 diode orientation legend not on PCB
 - STM32 Pin 1 legend not there
 - Header holes for DCDC regulator modules too small had to hack them on there.
-- 
+- ARM Cortex M Debug Connector issues, signals are flipped around, I suspect that the footprint numbering doesn't correspond to the symbol numbering.
