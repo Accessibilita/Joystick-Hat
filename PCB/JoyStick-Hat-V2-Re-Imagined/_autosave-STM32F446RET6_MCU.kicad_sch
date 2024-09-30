@@ -29193,7 +29193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AVR-KiCAD-Lib-Connectors:CON_901301210_MOL"
+		(property "Footprint" "AVR-KiCAD-Lib-Connectors:CON_901301212_MOL"
 			(at 20.32 102.87 0)
 			(effects
 				(font
