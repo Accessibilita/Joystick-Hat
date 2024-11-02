@@ -3,7 +3,7 @@ RPi Hat for controlling an open source wheel chair! This hat contains all the ne
 
 Functional Block Diagram of Board 
 
-![PCB Render](img/Block_diagram.png)
+![PCB Render](img/JoyStick-HID_V2.png)
 
 Quick Specs of the Hat:
 - STM32F446RET6 100TQFP ARM Cortex M4 Microcontoller
@@ -23,7 +23,7 @@ Quick Specs of the Hat:
 This hat is intended as a developmental platform that can function in the field, it has all the features needed to control the wheel chair with additional feature that will make software development easier. The final version will be much simpler and low cost, this is only the beginning. 
 
 2D Render of JoyStick-HID Hat in KiCAD 8.0
-![PCB Render](img/JoyStick-Hat_2D.jpg)
+![PCB Render](img/JoyStick-Hat_2D_V2.jpg)
 
 3D Renders of JoyStick-HID Hat in KiCAD 8.0 3D Viewer 
 
@@ -105,6 +105,9 @@ assmbely notes:
 - All DCDC Regulators Work and produce correct voltage
 - Debug LEDs Work
 - GPIO and ADC Interfaces Work
+
+Firmware:
+Test firmware along with instructions on how to build and run can be found here: https://github.com/Accessibilita/JoyStick-hat-firmware
 
 ## Photos 
 
