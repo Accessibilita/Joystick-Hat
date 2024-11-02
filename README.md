@@ -1,5 +1,5 @@
-# Joystick-Hat (0.2a)
-RPi Hat for controlling an open source wheel chair! This hat contains all the necessary electronics for interfacing and powering all the components/peripherals that will be used to control the open source wheel chair electrical system we are developing with the Accessibilita project !!
+# Joystick-HID (0.2a)
+A custom open source PCB for controlling an open source wheel chair! This PCB contains all the necessary electronics for interfacing and powering all the components/peripherals that will be used to build a wheel chair human machine interface consisting of this PCB, analog JoyStick module, buttons, rotary switches, and 3D printed housing. JoyStick-HID is just one of the many PCBs being developed for our open source wheel chair electrical system we are developing with the Accessibilita project for the Mobility Independence Foundation (themif.org) !!
 
 Functional Block Diagram of Board 
 
