@@ -8501,6 +8501,12 @@
 		(uuid "2a76c0ce-5cc5-4747-b690-4acfafa92ef8")
 	)
 	(junction
+		(at 215.9 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b0260af-a999-484b-b043-07f692302eda")
+	)
+	(junction
 		(at 228.6 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8513,6 +8519,30 @@
 		(uuid "4c724227-7235-4b6e-9ec9-eaf07408bee0")
 	)
 	(junction
+		(at 223.52 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cba0400-ac8a-4d71-84b8-ea64bad13f61")
+	)
+	(junction
+		(at 223.52 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5883a0fa-73dd-4160-aa11-d1927f869264")
+	)
+	(junction
+		(at 223.52 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66458993-ee21-43ea-9dd6-8d5b4985762b")
+	)
+	(junction
+		(at 223.52 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b9472ad-ee37-494c-bb61-6bbb42a45de9")
+	)
+	(junction
 		(at 273.05 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8523,12 +8553,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a337753-4d3e-4e26-bb3f-47b918208d79")
-	)
-	(junction
-		(at 220.98 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "884911d0-cee9-42b8-aa1c-9eef54c323cf")
 	)
 	(junction
 		(at 267.97 148.59)
@@ -8603,6 +8627,12 @@
 		(uuid "d05844dd-5460-44a0-878e-1b68c4c3e1c2")
 	)
 	(junction
+		(at 223.52 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d452b803-3d6e-4ccb-aecf-6b8a4a523811")
+	)
+	(junction
 		(at 267.97 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8613,12 +8643,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc40a7ae-05f6-41c5-a308-542cd101f726")
-	)
-	(junction
-		(at 210.82 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc4769e4-7d14-4d2d-b4e3-1e387282f2c9")
 	)
 	(junction
 		(at 213.36 62.23)
@@ -8639,10 +8663,22 @@
 		(uuid "eca168b2-96a4-45e7-a5ca-929d2a109936")
 	)
 	(junction
+		(at 223.52 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eef28661-33ba-41e0-a903-0659993599c5")
+	)
+	(junction
 		(at 203.2 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1f356dc-ed7a-4e64-b184-ad30dce63560")
+	)
+	(junction
+		(at 203.2 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fee4f4ee-9f9d-4a77-a80f-5d9963154b82")
 	)
 	(wire
 		(pts
@@ -8676,6 +8712,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 118.11) (xy 248.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04375792-3263-4701-9d7e-02c165ecc263")
+	)
+	(wire
+		(pts
 			(xy 190.5 91.44) (xy 198.12 91.44)
 		)
 		(stroke
@@ -8683,6 +8729,16 @@
 			(type default)
 		)
 		(uuid "0451f9c9-39d4-4609-98bc-4886815f37fc")
+	)
+	(wire
+		(pts
+			(xy 245.11 133.35) (xy 245.11 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0553d6e4-6fdf-40d6-a428-4630e0012738")
 	)
 	(wire
 		(pts
@@ -8716,6 +8772,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 104.14) (xy 223.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a51270c-08c4-405a-ad0c-3d4784a7dc5d")
+	)
+	(wire
+		(pts
 			(xy 201.93 73.66) (xy 213.36 73.66)
 		)
 		(stroke
@@ -8726,13 +8792,43 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 95.25) (xy 220.98 99.06)
+			(xy 215.9 95.25) (xy 215.9 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0c1c9885-0795-4d50-b103-afde0eafc1bf")
+	)
+	(wire
+		(pts
+			(xy 30.48 154.94) (xy 66.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c8b20f-c4af-4fa1-abfe-63505c7fb787")
+	)
+	(wire
+		(pts
+			(xy 223.52 104.14) (xy 226.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130fa5a2-0941-4caf-840d-4a9e3fe97220")
+	)
+	(wire
+		(pts
+			(xy 223.52 128.27) (xy 223.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13be0efe-4cf0-4395-9dab-8e35a3c268bf")
 	)
 	(wire
 		(pts
@@ -8746,7 +8842,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 109.22) (xy 226.06 109.22)
+			(xy 218.44 109.22) (xy 226.06 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8816,7 +8912,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 104.14) (xy 223.52 104.14)
+			(xy 203.2 104.14) (xy 218.44 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8826,7 +8922,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 91.44) (xy 210.82 95.25)
+			(xy 203.2 91.44) (xy 203.2 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8836,13 +8932,23 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 96.52) (xy 226.06 96.52)
+			(xy 218.44 96.52) (xy 226.06 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23dc2c0c-43d8-40a2-bf3a-703f6c4a6664")
+	)
+	(wire
+		(pts
+			(xy 223.52 125.73) (xy 223.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2570ccbe-97b3-4b39-9e6e-b92f38f01e90")
 	)
 	(wire
 		(pts
@@ -8853,16 +8959,6 @@
 			(type default)
 		)
 		(uuid "292be265-71f2-4f39-80a3-489799a0ea71")
-	)
-	(wire
-		(pts
-			(xy 210.82 91.44) (xy 223.52 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a26afa0-518f-40b8-8617-014b60770eec")
 	)
 	(wire
 		(pts
@@ -8926,7 +9022,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 93.98) (xy 226.06 93.98)
+			(xy 218.44 93.98) (xy 226.06 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8966,6 +9062,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 101.6) (xy 226.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373455aa-f218-4991-817c-7a344e4fd5b6")
+	)
+	(wire
+		(pts
 			(xy 241.3 111.76) (xy 276.86 111.76)
 		)
 		(stroke
@@ -8973,6 +9079,16 @@
 			(type default)
 		)
 		(uuid "37ed0bd0-a438-4ea9-b395-fe220a3dda84")
+	)
+	(wire
+		(pts
+			(xy 223.52 130.81) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce582b5-7dbe-42ce-b38d-7c76ab8240cd")
 	)
 	(wire
 		(pts
@@ -9046,6 +9162,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 133.35) (xy 245.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb12a90-ca68-490b-810b-443143b15af8")
+	)
+	(wire
+		(pts
 			(xy 281.94 109.22) (xy 281.94 162.56)
 		)
 		(stroke
@@ -9096,6 +9222,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 99.06) (xy 218.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a572240-f1cb-41c4-8f93-c38f868c0485")
+	)
+	(wire
+		(pts
 			(xy 203.2 133.35) (xy 226.06 133.35)
 		)
 		(stroke
@@ -9116,7 +9252,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 91.44) (xy 223.52 93.98)
+			(xy 218.44 91.44) (xy 218.44 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9186,6 +9322,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 128.27) (xy 226.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749b80d7-d4d2-4bec-9d00-6fc3d4fc410f")
+	)
+	(wire
+		(pts
 			(xy 259.08 101.6) (xy 241.3 101.6)
 		)
 		(stroke
@@ -9196,7 +9342,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 104.14) (xy 223.52 109.22)
+			(xy 223.52 106.68) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a96cfa3-6e07-4d6d-938c-f80f01d93790")
+	)
+	(wire
+		(pts
+			(xy 218.44 104.14) (xy 218.44 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9256,16 +9412,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 99.06) (xy 223.52 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "827eb992-b22f-4470-a82f-67bec0d94dbf")
-	)
-	(wire
-		(pts
 			(xy 167.64 96.52) (xy 190.5 96.52)
 		)
 		(stroke
@@ -9276,7 +9422,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 99.06) (xy 223.52 96.52)
+			(xy 30.48 157.48) (xy 86.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88209efc-534e-4128-842d-9d3a78850072")
+	)
+	(wire
+		(pts
+			(xy 218.44 99.06) (xy 218.44 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9293,6 +9449,16 @@
 			(type default)
 		)
 		(uuid "8cba6f70-d0c3-49e7-88d1-8cedcb6a125d")
+	)
+	(wire
+		(pts
+			(xy 203.2 91.44) (xy 218.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d399a7a-98f6-458b-8a3a-e11041e189c8")
 	)
 	(wire
 		(pts
@@ -9336,13 +9502,33 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 160.02) (xy 40.64 160.02)
+			(xy 223.52 123.19) (xy 223.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9611c871-e2ec-4eb8-a33a-675f9310cb86")
+	)
+	(wire
+		(pts
+			(xy 30.48 160.02) (xy 40.64 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "96d3a76e-1262-48a3-be01-3c0b07a65e08")
+	)
+	(wire
+		(pts
+			(xy 215.9 123.19) (xy 223.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987d447c-04fa-4fef-8968-6c2f70535ae1")
 	)
 	(wire
 		(pts
@@ -9396,6 +9582,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 125.73) (xy 223.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7167de-f443-4984-81dd-04181145003d")
+	)
+	(wire
+		(pts
+			(xy 223.52 99.06) (xy 223.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a238f38d-1770-4d4e-bbc1-d25964db00f3")
+	)
+	(wire
+		(pts
 			(xy 157.48 82.55) (xy 157.48 85.09)
 		)
 		(stroke
@@ -9406,6 +9612,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 123.19) (xy 223.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c493d7-c3c1-40c8-9084-4d4e21139f83")
+	)
+	(wire
+		(pts
 			(xy 190.5 106.68) (xy 190.5 111.76)
 		)
 		(stroke
@@ -9413,6 +9629,16 @@
 			(type default)
 		)
 		(uuid "a7bcbc4e-291c-448b-ad5c-d4445333e208")
+	)
+	(wire
+		(pts
+			(xy 223.52 106.68) (xy 223.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9274ef0-7080-4b28-98af-75c9c5d7e995")
 	)
 	(wire
 		(pts
@@ -9443,6 +9669,26 @@
 			(type default)
 		)
 		(uuid "b923c9fa-4314-4fef-b291-d93f0f4fd436")
+	)
+	(wire
+		(pts
+			(xy 223.52 101.6) (xy 223.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96ccf05-88ee-470f-9ff1-4f7efb7efc17")
+	)
+	(wire
+		(pts
+			(xy 203.2 95.25) (xy 205.74 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb26f57d-56c0-4bfd-b0ce-c7170a1cc38d")
 	)
 	(wire
 		(pts
@@ -9486,6 +9732,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 118.11) (xy 248.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbe13ba-3a27-49e9-819a-7c7f0dc203fc")
+	)
+	(wire
+		(pts
 			(xy 27.94 106.68) (xy 138.43 106.68)
 		)
 		(stroke
@@ -9493,6 +9749,16 @@
 			(type default)
 		)
 		(uuid "cc855093-56d0-4fd1-8288-4f41adb1ff09")
+	)
+	(wire
+		(pts
+			(xy 226.06 99.06) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8af44c-fd8c-40ba-b4c1-8c0b33793b0f")
 	)
 	(wire
 		(pts
@@ -9536,6 +9802,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 154.94) (xy 245.11 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e119cc5c-7f68-4a66-b5ec-a1465f9377ec")
+	)
+	(wire
+		(pts
 			(xy 213.36 73.66) (xy 224.79 73.66)
 		)
 		(stroke
@@ -9576,7 +9852,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 99.06) (xy 220.98 99.06)
+			(xy 195.58 99.06) (xy 215.9 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9626,6 +9902,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 157.48) (xy 248.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbb6c31-bcd6-4782-bb2b-30f9bdb4120d")
+	)
+	(wire
+		(pts
 			(xy 201.93 62.23) (xy 213.36 62.23)
 		)
 		(stroke
@@ -9636,7 +9922,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 162.56) (xy 63.5 162.56)
+			(xy 30.48 162.56) (xy 63.5 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9656,7 +9942,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 91.44) (xy 210.82 91.44)
+			(xy 198.12 91.44) (xy 203.2 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9734,7 +10020,7 @@
 	)
 	(hierarchical_label "RS485_RX_LED"
 		(shape input)
-		(at 27.94 162.56 180)
+		(at 30.48 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9792,9 +10078,33 @@
 		)
 		(uuid "691e36a7-3231-4a4e-9406-25780ca11641")
 	)
+	(hierarchical_label "RS485_TX_LED2"
+		(shape input)
+		(at 30.48 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dbfa7eb-d027-4269-8853-20da8c3679bd")
+	)
+	(hierarchical_label "RS485_RX_LED2"
+		(shape input)
+		(at 30.48 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c832fba-56ed-4f73-afdb-8a9edd65fd78")
+	)
 	(hierarchical_label "RS485_TX_LED"
 		(shape input)
-		(at 27.94 160.02 180)
+		(at 30.48 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11047,12 +11357,11 @@
 			)
 		)
 		(property "_Value_" "470r"
-			(at -10.16 223.52 0)
+			(at 60.452 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Management_ID" "*"
@@ -12975,6 +13284,289 @@
 		)
 	)
 	(symbol
+		(lib_id "AVR-KiCAD-Lib-Resistors:RC0603FR-07470RL")
+		(at 93.98 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7882e63c-ad94-4798-bbae-45a19bc838c6")
+		(property "Reference" "R26"
+			(at 101.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-07470RL"
+			(at 93.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0603"
+			(at 93.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 470 OHM 1% 1/10W 0603"
+			(at 33.02 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "0.100"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "0.00476"
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "0.00418"
+			(at 86.36 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 83.82 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 78.74 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "RC0603FR-07470RL"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 73.66 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "311-470HRCT-ND"
+			(at 71.12 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 68.58 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55mm"
+			(at 66.04 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "4/23/2019"
+			(at 38.1 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "4/23/2019"
+			(at 63.5 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 58.42 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 55.88 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "2"
+			(at 53.34 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 50.8 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 48.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT Chip Resistor"
+			(at 45.72 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 43.18 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 40.64 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "470r"
+			(at 106.172 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 33.02 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a153fdd-d1b0-4590-a12c-13cf4fafe4e1")
+		)
+		(pin "1"
+			(uuid "09b5dbcc-2c57-44ab-9ac6-dcf75908e902")
+		)
+		(instances
+			(project "JoyStick-Hat-V2-Re-Imagined"
+				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 74.93 0)
 		(unit 1)
@@ -13454,6 +14046,289 @@
 			(project "JoyStick-Hat"
 				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AVR-KiCAD-Lib-Resistors:RC0603FR-07470RL")
+		(at 73.66 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c252fc2-32ae-4213-aea5-cf6ec864325c")
+		(property "Reference" "R25"
+			(at 81.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-07470RL"
+			(at 73.66 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0603"
+			(at 73.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 470 OHM 1% 1/10W 0603"
+			(at 12.7 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "0.100"
+			(at 71.12 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "0.00476"
+			(at 68.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "0.00418"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 63.5 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 60.96 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "RC0603FR-07470RL"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 53.34 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "311-470HRCT-ND"
+			(at 50.8 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 48.26 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55mm"
+			(at 45.72 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "4/23/2019"
+			(at 17.78 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "4/23/2019"
+			(at 43.18 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 40.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 38.1 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 35.56 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "2"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 30.48 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 27.94 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT Chip Resistor"
+			(at 25.4 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 22.86 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 20.32 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "470r"
+			(at 85.852 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 12.7 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e516d085-5b14-405a-aefc-4b07a6aeb212")
+		)
+		(pin "1"
+			(uuid "53b211c9-b34a-4dcb-902d-ce7bdcf22428")
+		)
+		(instances
+			(project "JoyStick-Hat-V2-Re-Imagined"
+				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -14353,12 +15228,11 @@
 			)
 		)
 		(property "_Value_" "470r"
-			(at 12.7 226.06 0)
+			(at 79.756 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Management_ID" "*"
@@ -14750,7 +15624,7 @@
 	)
 	(symbol
 		(lib_id "AVR-KiCAD-Lib-Resistors:AC0402FR-07120RL")
-		(at 215.9 95.25 0)
+		(at 210.82 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14758,7 +15632,7 @@
 		(dnp no)
 		(uuid "d7c42b9b-d28a-41ac-8a22-c29008210829")
 		(property "Reference" "R38"
-			(at 210.566 97.536 0)
+			(at 205.486 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14766,7 +15640,7 @@
 			)
 		)
 		(property "Value" "AC0402FR-07120RL"
-			(at 215.9 90.17 0)
+			(at 210.82 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +15649,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0402"
-			(at 215.9 95.25 0)
+			(at 210.82 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14784,7 +15658,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
-			(at 215.9 95.25 0)
+			(at 210.82 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14793,7 +15667,7 @@
 			)
 		)
 		(property "Description" "120 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
-			(at 276.86 29.21 0)
+			(at 271.78 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14802,7 +15676,7 @@
 			)
 		)
 		(property "Cost QTY: 1" "0.10000"
-			(at 218.44 88.9 0)
+			(at 213.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14811,7 +15685,7 @@
 			)
 		)
 		(property "Cost QTY: 1000" "0.00390"
-			(at 220.98 86.36 0)
+			(at 215.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14820,7 +15694,7 @@
 			)
 		)
 		(property "Cost QTY: 2500" "0.00338"
-			(at 223.52 83.82 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14829,7 +15703,7 @@
 			)
 		)
 		(property "Cost QTY: 5000" "0.00279"
-			(at 226.06 81.28 0)
+			(at 220.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14838,7 +15712,7 @@
 			)
 		)
 		(property "Cost QTY: 10000" "0.00220"
-			(at 228.6 78.74 0)
+			(at 223.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14847,7 +15721,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 231.14 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14856,7 +15730,7 @@
 			)
 		)
 		(property "MFR#" "AC0402FR-07120RL"
-			(at 233.68 73.66 0)
+			(at 228.6 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14865,7 +15739,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 236.22 71.12 0)
+			(at 231.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14874,7 +15748,7 @@
 			)
 		)
 		(property "Vendor #" "YAG3440CT-ND"
-			(at 238.76 68.58 0)
+			(at 233.68 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14883,7 +15757,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 241.3 66.04 0)
+			(at 236.22 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14892,7 +15766,7 @@
 			)
 		)
 		(property "Height" "0.4mm"
-			(at 243.84 63.5 0)
+			(at 238.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14901,7 +15775,7 @@
 			)
 		)
 		(property "Date Created" "4/6/2020"
-			(at 271.78 35.56 0)
+			(at 266.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14910,7 +15784,7 @@
 			)
 		)
 		(property "Date Modified" "4/6/2020"
-			(at 246.38 60.96 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14919,7 +15793,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 248.92 58.42 0)
+			(at 243.84 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14928,7 +15802,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 251.46 55.88 0)
+			(at 246.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,7 +15811,7 @@
 			)
 		)
 		(property "Mounting" "SMT"
-			(at 254 53.34 0)
+			(at 248.92 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14946,7 +15820,7 @@
 			)
 		)
 		(property "Pin Count #" "2"
-			(at 256.54 50.8 0)
+			(at 251.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14955,7 +15829,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 259.08 48.26 0)
+			(at 254 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14964,7 +15838,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 261.62 45.72 0)
+			(at 256.54 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14973,7 +15847,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistor"
-			(at 264.16 43.18 0)
+			(at 259.08 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14982,7 +15856,7 @@
 			)
 		)
 		(property "Voltage" "*"
-			(at 266.7 40.64 0)
+			(at 261.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14991,7 +15865,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 269.24 36.83 0)
+			(at 264.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15000,7 +15874,7 @@
 			)
 		)
 		(property "_Value_" "120R"
-			(at 215.9 97.79 0)
+			(at 210.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15008,7 +15882,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 276.86 29.21 0)
+			(at 271.78 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15026,6 +15900,72 @@
 			(project "JoyStick-Hat"
 				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d823a6a4-8554-4801-8a9a-d8223c5c0227")
+		(property "Reference" "#PWR044"
+			(at 215.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "089b9edd-0e70-48f0-a027-c8a70ec40ea0")
+		)
+		(instances
+			(project "JoyStick-Hat-V2-Re-Imagined"
+				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)

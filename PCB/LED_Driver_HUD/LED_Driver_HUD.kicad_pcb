@@ -4844,7 +4844,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Diodes:HLMP"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae80fc46-1761-4674-97a4-e8fcf7651d67")
@@ -4856,7 +4856,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.broadcom.com/doc/HLMP-1301-1401-HLMP-1503-HLMP-K401-HLMP-K600-T-1-Diffused-LED-Lamps-DS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7bc3d0ec-89eb-4ce9-a955-bbbfa74e18fb")
@@ -4868,7 +4868,7 @@
 			)
 		)
 		(property "Description" "Yellow 585nm LED Indication - Discrete 2V Radial"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77bb5e91-0fd2-43cd-930a-5f6e984b020d")
@@ -18071,6 +18071,46 @@
 		)
 	)
 	(gr_line
+		(start 142 73.9)
+		(end 142 113.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "31b652a1-6617-4358-afe1-fcee1d9540db")
+	)
+	(gr_line
+		(start 158 73.9)
+		(end 142 73.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "62a6c0fc-e759-4293-a7ef-e834234e86c1")
+	)
+	(gr_line
+		(start 158 113.9)
+		(end 158 73.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "9b616bbf-bf6f-499b-8219-1a9d479be95e")
+	)
+	(gr_line
+		(start 142 113.9)
+		(end 158 113.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "b6e2f517-e2d3-4559-ab0f-5fecefbba845")
+	)
+	(gr_line
 		(start 123 53)
 		(end 177 53)
 		(stroke
@@ -18153,6 +18193,227 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e2b3e2be-a4a8-4c16-8923-336595592764")
+	)
+	(gr_text "PC4"
+		(at 152.3 139.55 90)
+		(layer "B.SilkS")
+		(uuid "0e08881e-5b6d-4f98-bd37-8b6c9495adac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 150 146.4 90)
+		(layer "B.SilkS")
+		(uuid "130c5fcd-f115-4564-9c51-672a2080bbbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Designed by Adam Vadala-Roth"
+		(at 147.55 74.8 90)
+		(layer "B.SilkS")
+		(uuid "179dd41f-e6f4-4a13-af49-a56154331280")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PA7"
+		(at 155.2 146.3 90)
+		(layer "B.SilkS")
+		(uuid "21747fd8-86ae-46a1-8c26-7fb3d507941d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "3V3"
+		(at 160 139.6 90)
+		(layer "B.SilkS")
+		(uuid "3e25fc77-97f9-45a1-83b2-c83ec31b63d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PC5"
+		(at 152.6 146.3 90)
+		(layer "B.SilkS")
+		(uuid "54877986-1f77-466d-9baa-a11e99271811")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Accessibilita Project"
+		(at 154.3 74.8 90)
+		(layer "B.SilkS")
+		(uuid "8be2639b-d0d4-49ce-a2ea-7703e4276605")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Mobility Independence Foundation "
+		(at 152.05 74.8 90)
+		(layer "B.SilkS")
+		(uuid "928e269d-cb02-4a28-bdf9-9135cce2e966")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "LED-Driver-HUD 0.1a 2024"
+		(at 145.05 74.8 90)
+		(layer "B.SilkS")
+		(uuid "9ebee6aa-8259-4370-adb8-f72ab71bea7c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GhostPCB LLC"
+		(at 149.9 74.8 90)
+		(layer "B.SilkS")
+		(uuid "a620a265-3809-4420-87cc-b15a3646cbdc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PA6"
+		(at 154.9 139.55 90)
+		(layer "B.SilkS")
+		(uuid "d393909c-7a4f-46e4-a943-e9ffd11d68c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 149.8 139.4 90)
+		(layer "B.SilkS")
+		(uuid "d44f29ed-301a-46f8-82cc-942f6a65a412")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "3V3"
+		(at 160.2 146.5 90)
+		(layer "B.SilkS")
+		(uuid "da009ab3-4d80-4df3-a10d-a5935d757202")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "https://github.com/Accessibilita"
+		(at 156.5 74.6 90)
+		(layer "B.SilkS")
+		(uuid "dc6773ba-8d4a-421a-a540-f936650ad90c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PA5"
+		(at 157.7 146.3 90)
+		(layer "B.SilkS")
+		(uuid "e5b5c2c8-e6ee-4dc3-ad8d-aa607bd165e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PA4"
+		(at 157.6 139.55 90)
+		(layer "B.SilkS")
+		(uuid "fd7cd69d-270c-4fbe-8638-f0ec021cd698")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "LED-Driver-HUD"
+		(at 161.8 136.8 45)
+		(layer "F.SilkS")
+		(uuid "ddd06091-0ab9-4459-8ae2-7291018a72a3")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.45)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 143.7 112.95)
