@@ -14614,7 +14614,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 149.86) (xy 204.47 149.86)
+			(xy 137.16 149.86) (xy 196.85 149.86)
 		)
 		(stroke
 			(width 0)
@@ -15354,7 +15354,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 152.4) (xy 204.47 152.4)
+			(xy 137.16 152.4) (xy 196.85 152.4)
 		)
 		(stroke
 			(width 0)
@@ -16018,7 +16018,7 @@
 		(uuid "132dd9af-7d75-4245-a05f-297f6166849b")
 	)
 	(label "PE5"
-		(at 87.63 81.28 0)
+		(at 86.36 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16293,7 +16293,7 @@
 		(uuid "68726a29-a615-4f63-8da8-687caf7879c1")
 	)
 	(label "PE6"
-		(at 87.63 83.82 0)
+		(at 86.36 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16458,7 +16458,7 @@
 		(uuid "83eac37d-80cd-492e-b47e-43408e478b72")
 	)
 	(label "PA11"
-		(at 139.7 73.66 0)
+		(at 142.24 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16524,7 +16524,7 @@
 		(uuid "8c752f4c-176f-43bc-b4a4-98d8e4d28e08")
 	)
 	(label "PE4"
-		(at 87.63 78.74 0)
+		(at 86.36 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16546,7 +16546,7 @@
 		(uuid "968803e9-da46-4a7c-a2b1-d78e0307b789")
 	)
 	(label "PA12"
-		(at 139.7 76.2 0)
+		(at 142.24 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16766,7 +16766,7 @@
 		(uuid "e0138e5d-1071-4912-9478-7a77497cf556")
 	)
 	(label "PA10"
-		(at 139.7 71.12 0)
+		(at 142.24 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16799,7 +16799,7 @@
 		(uuid "e33d7ce3-2974-45d9-a8f2-b182b128c633")
 	)
 	(label "PA9"
-		(at 139.7 68.58 0)
+		(at 142.24 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16910,7 +16910,7 @@
 	)
 	(hierarchical_label "RS485_TX_EN"
 		(shape output)
-		(at 204.47 149.86 0)
+		(at 196.85 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17090,7 +17090,7 @@
 	)
 	(hierarchical_label "RS485_RX_EN"
 		(shape output)
-		(at 204.47 152.4 0)
+		(at 196.85 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -31167,10 +31167,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8843b2b2-272e-4f5a-a0f9-2604cb524a4f")
 		(property "Reference" "J10"
-			(at 29.845 105.41 0)
+			(at 26.924 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31178,7 +31177,7 @@
 			)
 		)
 		(property "Value" "0901301212"
-			(at 29.845 107.95 0)
+			(at 29.464 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)

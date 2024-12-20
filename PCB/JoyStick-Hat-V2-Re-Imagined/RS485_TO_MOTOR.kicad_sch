@@ -3820,24 +3820,6 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -44.45 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 -31.75 0)
 					(length 2.54)
 					(name "~"
@@ -4010,6 +3992,24 @@
 						)
 					)
 					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -44.45 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8555,6 +8555,12 @@
 		(uuid "7a337753-4d3e-4e26-bb3f-47b918208d79")
 	)
 	(junction
+		(at 266.7 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "843afa5b-7a71-4bd8-b5e8-f425dda80331")
+	)
+	(junction
 		(at 267.97 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8631,12 +8637,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d452b803-3d6e-4ccb-aecf-6b8a4a523811")
-	)
-	(junction
-		(at 267.97 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da6e6d0e-c1f2-4de7-b94a-da10561d7fb1")
 	)
 	(junction
 		(at 119.38 63.5)
@@ -8862,16 +8862,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 152.4) (xy 267.97 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18617333-613c-46e6-a88b-ac91bdba70b9")
-	)
-	(wire
-		(pts
 			(xy 119.38 63.5) (xy 127 63.5)
 		)
 		(stroke
@@ -8879,16 +8869,6 @@
 			(type default)
 		)
 		(uuid "1a05f198-96c0-4410-8e83-575c63013ba0")
-	)
-	(wire
-		(pts
-			(xy 267.97 148.59) (xy 267.97 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c33a721-8289-4e97-b786-8a9bb8cfc991")
 	)
 	(wire
 		(pts
@@ -9002,7 +8982,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 109.22) (xy 172.72 109.22)
+			(xy 170.18 109.22) (xy 167.64 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9102,7 +9082,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 148.59) (xy 261.62 148.59)
+			(xy 267.97 148.59) (xy 266.7 148.59)
 		)
 		(stroke
 			(width 0)
@@ -9192,6 +9172,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 148.59) (xy 266.7 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545c5309-1d72-40e4-a533-4fdcfa508544")
+	)
+	(wire
+		(pts
 			(xy 27.94 101.6) (xy 138.43 101.6)
 		)
 		(stroke
@@ -9272,7 +9262,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 152.4) (xy 276.86 152.4)
+			(xy 241.3 152.4) (xy 276.86 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9442,7 +9432,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 109.22) (xy 172.72 114.3)
+			(xy 170.18 109.22) (xy 170.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9619,6 +9609,16 @@
 			(type default)
 		)
 		(uuid "a4c493d7-c3c1-40c8-9084-4d4e21139f83")
+	)
+	(wire
+		(pts
+			(xy 266.7 148.59) (xy 261.62 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a752521f-cb44-46aa-8fa8-a5ba14267315")
 	)
 	(wire
 		(pts
@@ -10116,7 +10116,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 172.72 114.3 0)
+		(at 170.18 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10125,7 +10125,7 @@
 		(fields_autoplaced yes)
 		(uuid "008f7df3-9e20-4b91-84b8-6570b257934b")
 		(property "Reference" "#PWR068"
-			(at 172.72 120.65 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10134,7 +10134,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 172.72 118.11 0)
+			(at 170.18 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,7 +10143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 114.3 0)
+			(at 170.18 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10152,7 +10152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 114.3 0)
+			(at 170.18 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10161,7 +10161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 114.3 0)
+			(at 170.18 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12024,7 +12024,7 @@
 		(pin "4"
 			(uuid "c7265df9-bcb6-4aa2-8b4d-d7438f02859a")
 		)
-		(pin "14"
+		(pin "24"
 			(uuid "e34d633e-2da9-41f5-89ec-44982065bca2")
 		)
 		(pin "7"
@@ -12998,6 +12998,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 215.9 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aa44dda-b19f-4b4c-862c-f2555cfd1122")
+		(property "Reference" "#PWR038"
+			(at 215.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 215.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7115e171-363c-4917-9295-55dd9bfc7e14")
+		)
+		(instances
+			(project "JoyStick-Hat-V2-Re-Imagined"
+				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AVR-KiCAD-Lib-Capacitors:CGA5L3X5R1V106K160AB")
 		(at 119.38 69.85 90)
 		(unit 1)
@@ -13693,6 +13760,73 @@
 			(project "JoyStick-Hat"
 				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 266.7 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85242865-f696-44bd-b389-109bcecb4896")
+		(property "Reference" "#PWR041"
+			(at 266.7 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 266.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62b60ed1-a80f-4fb8-a4a5-4bb1cb4d68bc")
+		)
+		(instances
+			(project "JoyStick-Hat-V2-Re-Imagined"
+				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15900,72 +16034,6 @@
 			(project "JoyStick-Hat"
 				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d823a6a4-8554-4801-8a9a-d8223c5c0227")
-		(property "Reference" "#PWR044"
-			(at 215.9 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "089b9edd-0e70-48f0-a027-c8a70ec40ea0")
-		)
-		(instances
-			(project "JoyStick-Hat-V2-Re-Imagined"
-				(path "/cf0c81b5-5bdf-47c3-83c0-f6980f515e65/82e1f9af-1e5c-4e7f-8d36-34a266d2a8ff"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
