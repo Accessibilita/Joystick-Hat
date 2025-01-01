@@ -1333,7 +1333,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "bd43575c-870b-44c3-a3d4-917bc12e24b1")
 		)
-		(model "C:/Users/adamv/Documents/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/RES0603.stp"
+		(model "${KICAD_AVR_3D}/STEP/RES0603.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18485,7 +18485,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "9f029e27-f010-46c6-9f36-48cc207f3e6c")
 		)
-		(model "C:/Users/adamv/Documents/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/RES0603.stp"
+		(model "${KICAD_AVR_3D}/STEP/RES0603.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -64395,7 +64395,7 @@
 		)
 	)
 	(gr_text "Y"
-		(at 191.9 54.1 -90)
+		(at 190.7 54.4 180)
 		(layer "F.SilkS")
 		(uuid "66ca394c-a9d3-4695-85e3-0cc43dc618a6")
 		(effects
@@ -64538,7 +64538,7 @@
 		)
 	)
 	(gr_text "X"
-		(at 165.46 60.59 180)
+		(at 177.425 54.325 180)
 		(layer "F.SilkS")
 		(uuid "fcb01968-61fd-4a1e-8227-43cbad49a779")
 		(effects
