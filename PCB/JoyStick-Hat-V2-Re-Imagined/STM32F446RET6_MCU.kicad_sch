@@ -13514,16 +13514,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 106.68) (xy 91.44 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3339881d-8f9e-4abe-bc91-49c2476181de")
-	)
-	(wire
-		(pts
 			(xy 76.2 147.32) (xy 91.44 147.32)
 		)
 		(stroke
@@ -14711,16 +14701,6 @@
 			(type default)
 		)
 		(uuid "9f6c4ef2-7869-4562-98e0-470cb7207bcb")
-	)
-	(wire
-		(pts
-			(xy 26.67 104.14) (xy 91.44 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a00e7f3f-9af9-41f2-9422-abdac4703e3f")
 	)
 	(wire
 		(pts
@@ -17016,18 +16996,6 @@
 		)
 		(uuid "9580b755-ce1e-4876-8360-a02d22f908ea")
 	)
-	(hierarchical_label "5V_PG"
-		(shape input)
-		(at 26.67 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b174b7a2-e57d-44fd-b5f9-13c6b171e691")
-	)
 	(hierarchical_label "RS485_TX_LED2"
 		(shape input)
 		(at 196.85 144.78 0)
@@ -17123,18 +17091,6 @@
 			(justify left)
 		)
 		(uuid "da26a748-e905-4bf0-95bb-1ef68131533b")
-	)
-	(hierarchical_label "12V_PG"
-		(shape input)
-		(at 26.67 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4fbcf74-1984-4dd3-9242-285b5d3439ce")
 	)
 	(hierarchical_label "ROTARY1_POLE3"
 		(shape output)
