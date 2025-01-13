@@ -17,16 +17,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 157.48) (xy 175.26 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a5fc099-12b4-4bd3-a449-a6fba262bb38")
-	)
-	(wire
-		(pts
 			(xy 101.6 138.43) (xy 114.3 138.43)
 		)
 		(stroke
@@ -67,16 +57,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 129.54) (xy 175.26 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a8b2c4b-c097-48b3-a363-dbc2de68c0c8")
-	)
-	(wire
-		(pts
 			(xy 101.6 135.89) (xy 114.3 135.89)
 		)
 		(stroke
@@ -87,16 +67,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 154.94) (xy 172.72 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5004a02c-6e8c-467c-99dd-331ddae40e35")
-	)
-	(wire
-		(pts
 			(xy 101.6 73.66) (xy 114.3 73.66)
 		)
 		(stroke
@@ -104,16 +74,6 @@
 			(type default)
 		)
 		(uuid "54094dbc-9db7-4ff9-8318-d523e1a45776")
-	)
-	(wire
-		(pts
-			(xy 172.72 132.08) (xy 165.1 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c949d41-6ad7-423d-b7e1-b4a3a57d985f")
 	)
 	(wire
 		(pts
@@ -214,26 +174,6 @@
 			(type default)
 		)
 		(uuid "92ed87c7-d02f-4389-8deb-71efc3b7b692")
-	)
-	(wire
-		(pts
-			(xy 175.26 157.48) (xy 175.26 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a815b9ae-cea9-479f-8813-8a40ef6a36a3")
-	)
-	(wire
-		(pts
-			(xy 152.4 154.94) (xy 172.72 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8443e22-a7ca-4cff-96ed-c7e0e2f226bc")
 	)
 	(wire
 		(pts
@@ -614,26 +554,6 @@
 				(justify left top)
 			)
 		)
-		(pin "12V_PG" input
-			(at 152.4 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6bc9d2cc-b5d5-4c52-b875-1f4dd0d7e648")
-		)
-		(pin "5V_PG" input
-			(at 152.4 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6ce12c05-3414-4749-b630-22c73e9b837f")
-		)
 		(pin "3.3V_PG" input
 			(at 152.4 160.02 0)
 			(effects
@@ -742,16 +662,6 @@
 			)
 			(uuid "57920daf-7fc8-43a2-89e8-dd79943391e6")
 		)
-		(pin "12V_PG" input
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9e45b420-83a4-44c5-aa12-2579796128dc")
-		)
 		(pin "3.3V_PG" input
 			(at 165.1 127 0)
 			(effects
@@ -761,16 +671,6 @@
 				(justify right)
 			)
 			(uuid "f9c9f486-7e73-41fd-b3a3-31932c1bcbc9")
-		)
-		(pin "5V_PG" input
-			(at 165.1 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5764f5f0-f961-424d-9706-38ede3e881c9")
 		)
 		(pin "RS485_TXD" output
 			(at 114.3 118.11 180)
