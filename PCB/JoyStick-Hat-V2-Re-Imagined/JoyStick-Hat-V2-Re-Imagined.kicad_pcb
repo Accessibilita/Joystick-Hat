@@ -62967,6 +62967,7 @@
 	(gr_line
 		(start 183.070711 72.179288)
 		(end 143.070711 72.179288)
+		(locked yes)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -62977,6 +62978,7 @@
 	(gr_line
 		(start 143.070711 88.179288)
 		(end 183.070711 88.179288)
+		(locked yes)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -62987,6 +62989,7 @@
 	(gr_line
 		(start 183.070711 88.179288)
 		(end 183.070711 72.179288)
+		(locked yes)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -62997,6 +63000,7 @@
 	(gr_line
 		(start 143.070711 72.179288)
 		(end 143.070711 88.179288)
+		(locked yes)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -63355,6 +63359,7 @@
 		)
 	)
 	(gr_text "Accessibilita Project"
+		(locked yes)
 		(at 182.170711 84.479288 0)
 		(layer "B.SilkS")
 		(uuid "2a3edc1e-057f-4707-b586-cb6b77da189e")
@@ -63420,6 +63425,7 @@
 		)
 	)
 	(gr_text "Designed by Adam Vadala-Roth"
+		(locked yes)
 		(at 182.170711 77.729288 0)
 		(layer "B.SilkS")
 		(uuid "3c7c77a4-dc9a-414e-b44d-a200fe4d5536")
@@ -63966,6 +63972,7 @@
 		)
 	)
 	(gr_text "JoyStick-HID Rev 0.2a 2024"
+		(locked yes)
 		(at 182.170711 75.229288 0)
 		(layer "B.SilkS")
 		(uuid "ab6f2b8c-af1e-4aa8-bac9-f767307252d7")
@@ -64057,6 +64064,7 @@
 		)
 	)
 	(gr_text "https://github.com/Accessibilita"
+		(locked yes)
 		(at 182.370711 86.679288 0)
 		(layer "B.SilkS")
 		(uuid "d190a617-a94c-4790-833c-b581e10e6728")
@@ -64252,6 +64260,7 @@
 		)
 	)
 	(gr_text "Mobility Independence Foundation "
+		(locked yes)
 		(at 182.170711 82.229288 0)
 		(layer "B.SilkS")
 		(uuid "f89ed8c3-b7ab-4679-b2e6-8b65c4292230")
